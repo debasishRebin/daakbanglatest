@@ -3,6 +3,7 @@ import {Text, View, SafeAreaView} from 'react-native';
 import CustomHeader from '../../CustomHeader';
 
 const HomeDetail = ({navigation}) => {
+  console.log('hello');
   return (
     <SafeAreaView style={{flex: 1}}>
       <CustomHeader title="Home Detail" navigation={navigation} />
