@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, View, SafeAreaView} from 'react-native';
 import CustomHeader from '../../CustomHeader';
 
-const HomeScreenDetail = ({navigation}) => {
+const HomeDetail = ({navigation}) => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <CustomHeader title="Home Detail" navigation={navigation} />
@@ -13,4 +13,4 @@ const HomeScreenDetail = ({navigation}) => {
   );
 };
 
-export default HomeScreenDetail;
+export default HomeDetail;

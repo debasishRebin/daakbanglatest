@@ -113,7 +113,6 @@ const RegisterScreen = props => {
         <Text style={styles.successTextStyle}>Registration Successful</Text>
         <TouchableOpacity
           style={styles.buttonStyle}
-          activeOpacity={0.5}
           onPress={() => props.navigation.navigate('LoginScreen')}>
           <Text style={styles.buttonTextStyle}>Login Now</Text>
         </TouchableOpacity>
@@ -223,7 +222,6 @@ const RegisterScreen = props => {
           ) : null}
           <TouchableOpacity
             style={styles.buttonStyle}
-            activeOpacity={0.5}
             onPress={handleSubmitButton}>
             <Text style={styles.buttonTextStyle}>REGISTER</Text>
           </TouchableOpacity>

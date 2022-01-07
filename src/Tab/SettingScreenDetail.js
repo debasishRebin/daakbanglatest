@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View, SafeAreaView} from 'react-native';
+import {Text, View, SafeAreaView, TouchableOpacity} from 'react-native';
 import CustomHeader from '../../CustomHeader';
 
 const SettingScreenDetail = ({navigation}) => {

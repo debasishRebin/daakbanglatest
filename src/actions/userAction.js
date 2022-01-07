@@ -2,7 +2,7 @@ import {
   USER_LOGIN_REQUEST,
   USER_LOGIN_SUCCESS,
   USER_LOGIN_FAIL,
-} from '../Constants/UserConstants';
+} from '../constants/UserConstants';
 import axios from 'axios';
 import {BASE_PROD_URL} from '@env';
 import AsyncStorage from '@react-native-async-storage/async-storage';

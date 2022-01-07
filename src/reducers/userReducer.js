@@ -3,7 +3,7 @@ import {
   USER_LOGIN_SUCCESS,
   USER_LOGIN_FAIL,
   USER_LOGOUT,
-} from '../Constants/UserConstants';
+} from '../constants/UserConstants';
 const initialState = {loading: false, userInfo: null, error: false};
 
 export const userLoginReducer = (state = initialState, action) => {

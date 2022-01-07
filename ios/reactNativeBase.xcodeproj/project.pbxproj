@@ -28,6 +28,10 @@
 		3F890651D8C5481CBC8A43E1 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0746C48ED1C94E57AC0DFCD3 /* Octicons.ttf */; };
 		E50851BFBDD6475187C753A7 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C50D21F45B41108457E588 /* SimpleLineIcons.ttf */; };
 		4359061FE5624DF1A5F42915 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A83EE2CD344EC09A083A15 /* Zocial.ttf */; };
+		457A2043EDD8414CB6D9952E /* kalpurush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5024B558A5784E979AD70435 /* kalpurush.ttf */; };
+		69194CB479C747C49F01F974 /* Kalpurush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80BFDB6BA18E4D5FA69B18C2 /* Kalpurush.ttf */; };
+		D3F157E0727442BCA2945ACB /* kalpurushAnsi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1EA414C66644FFCB549ED17 /* kalpurushAnsi.ttf */; };
+		69EA759FE4F046BBAE4E8F46 /* Kalpurush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21C5BAF4C124F22A621BCFA /* Kalpurush-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		0746C48ED1C94E57AC0DFCD3 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F8C50D21F45B41108457E588 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A3A83EE2CD344EC09A083A15 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5024B558A5784E979AD70435 /* kalpurush.ttf */ = {isa = PBXFileReference; name = "kalpurush.ttf"; path = "../assets/fonts/kalpurush.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80BFDB6BA18E4D5FA69B18C2 /* Kalpurush.ttf */ = {isa = PBXFileReference; name = "Kalpurush.ttf"; path = "../assets/fonts/Kalpurush.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1EA414C66644FFCB549ED17 /* kalpurushAnsi.ttf */ = {isa = PBXFileReference; name = "kalpurushAnsi.ttf"; path = "../assets/fonts/kalpurushAnsi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F21C5BAF4C124F22A621BCFA /* Kalpurush-Regular.ttf */ = {isa = PBXFileReference; name = "Kalpurush-Regular.ttf"; path = "../assets/fonts/Kalpurush-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +184,10 @@
 				0746C48ED1C94E57AC0DFCD3 /* Octicons.ttf */,
 				F8C50D21F45B41108457E588 /* SimpleLineIcons.ttf */,
 				A3A83EE2CD344EC09A083A15 /* Zocial.ttf */,
+				5024B558A5784E979AD70435 /* kalpurush.ttf */,
+				80BFDB6BA18E4D5FA69B18C2 /* Kalpurush.ttf */,
+				D1EA414C66644FFCB549ED17 /* kalpurushAnsi.ttf */,
+				F21C5BAF4C124F22A621BCFA /* Kalpurush-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +299,10 @@
 				3F890651D8C5481CBC8A43E1 /* Octicons.ttf in Resources */,
 				E50851BFBDD6475187C753A7 /* SimpleLineIcons.ttf in Resources */,
 				4359061FE5624DF1A5F42915 /* Zocial.ttf in Resources */,
+				457A2043EDD8414CB6D9952E /* kalpurush.ttf in Resources */,
+				69194CB479C747C49F01F974 /* Kalpurush.ttf in Resources */,
+				D3F157E0727442BCA2945ACB /* kalpurushAnsi.ttf in Resources */,
+				69EA759FE4F046BBAE4E8F46 /* Kalpurush-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
