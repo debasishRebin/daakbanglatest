@@ -1,17 +1,10 @@
-import React from 'react';
-import {
-  Text,
-  View,
-  SafeAreaView,
-  TouchableOpacity,
-  ScrollView,
-  StyleSheet,
-} from 'react-native';
 import {useRoute} from '@react-navigation/native';
+import React from 'react';
+import {FlatList, SafeAreaView, StyleSheet, View} from 'react-native';
 import CustomHeader from '../../../CustomHeader';
-import UpperTabbar from '../../components/Sidebar/UpperTabbar/UpperTabbar';
-import Title from '../../components/UI/Title/Title';
+import Dekhashona from '../../components/Home/Dekhashona/Dekhashona';
 import Sampratik from '../../components/Home/Sampratik/Sampratik';
+import UpperTabbar from '../../components/Sidebar/UpperTabbar/UpperTabbar';
 
 const Home = ({navigation}) => {
   const route = useRoute();
@@ -19,14 +12,26 @@ const Home = ({navigation}) => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <CustomHeader
-        title="Home"
+        title=""
         isHome={true}
         navigation={navigation}
         route={route}
       />
-      <ScrollView>
-        <Sampratik />
-      </ScrollView>
+      <FlatList
+        data={[]}
+        overScrollMode="never"
+        ListEmptyComponent={null}
+        keyExtractor={() => 'product'}
+        renderItem={null}
+        ListHeaderComponent={() => (
+          <React.Fragment>
+            <Sampratik />
+            <View>
+              <Dekhashona />
+            </View>
+          </React.Fragment>
+        )}
+      />
       <View>
         <UpperTabbar />
       </View>

@@ -12,6 +12,7 @@ export class Title extends PureComponent {
       mainTitleFontSize,
       subTitleFontSize,
       alignItems,
+      isSecondary,
     } = this.props;
     return (
       <View
@@ -23,7 +24,7 @@ export class Title extends PureComponent {
           style={[
             styles.titleOne,
             utils.fFamily,
-            utils.titleColor,
+            isSecondary ? utils.titleColorSecondary : utils.titleColorPrimary,
             {
               fontSize: mainTitleFontSize
                 ? width / mainTitleFontSize
@@ -35,7 +36,7 @@ export class Title extends PureComponent {
         <Text
           style={[
             styles.titleTwo,
-            utils.titleColor,
+            isSecondary ? utils.titleColorSecondary : utils.titleColorPrimary,
             utils.fFamily,
             {
               fontSize: subTitleFontSize

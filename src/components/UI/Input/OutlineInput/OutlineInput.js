@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   passwordHide: {
     position: 'absolute',
     right: 0,
-    bottom: 10,
+    bottom: 6,
     flexDirection: 'row',
     alignItems: 'flex-end',
     height: '100%',

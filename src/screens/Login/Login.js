@@ -23,13 +23,15 @@ const Login = ({navigation}) => {
   const [password, setPassword] = useState('');
   const [savePassword, setSavePassword] = useState(false);
   const passwordInputRef = createRef();
-  const onOtpHandlePress = () => {
-    navigation.replace('Otp');
-  };
+
   const onResend = () => {
     ('hello');
   };
-  console.log('savePassword', savePassword);
+
+  const onLogin = () => {
+    navigation.replace('DrawerNavigator');
+  };
+
   return (
     <ImageBackground source={IMG.IMAGE_LOGIN_BG} style={styles.loginBg}>
       <KeyboardAvoidingView
@@ -43,6 +45,7 @@ const Login = ({navigation}) => {
             নিজের একাউন্ট এ লগইন করুন
           </Text>
         </View>
+
         <View style={styles.loginInputContainer}>
           <OutlineInput
             placeholder="মোবাইল নম্বর / ইমেইল"
@@ -69,7 +72,7 @@ const Login = ({navigation}) => {
             IMG={IMG.IMAGE_PASSWORD}
           />
           <View style={styles.loginBtnContainer}>
-            <BtnPrimary btnTitle="লগইন / রেজিস্টার" />
+            <BtnPrimary btnTitle="লগইন / রেজিস্টার" onPress={onLogin} />
           </View>
           <View style={[styles.togglePassword, utils.between]}>
             <TouchableOpacity
@@ -145,20 +148,20 @@ const styles = StyleSheet.create({
     // borderWidth: 1,
   },
   loginHeader: {
-    height: width / 5,
+    height: width / 5.6,
     justifyContent: 'space-between',
     marginBottom: 10,
   },
   headerText: {
     textAlign: 'center',
-    fontSize: width / 8,
+    fontSize: width / 8.4,
     letterSpacing: 0.5,
     flex: 4,
     fontWeight: '100',
   },
   loginBodyText: {
     textAlign: 'center',
-    fontSize: width / 34.9,
+    fontSize: width / 38,
     flex: 1,
   },
   loginInputContainer: {
@@ -167,7 +170,6 @@ const styles = StyleSheet.create({
   },
 
   //
-
   termsAndConditionText: {
     color: '#6a7b98',
     fontSize: width / 30,
@@ -180,8 +182,8 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   loginBtnContainer: {
-    height: width / 10,
-    marginTop: 20,
+    height: width / 12,
+    marginTop: 30,
   },
 
   togglePassword: {

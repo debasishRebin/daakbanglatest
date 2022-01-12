@@ -156,18 +156,18 @@ const StackApp = createNativeStackNavigator();
 
 export default function Navigation() {
   return (
-    <NavigationContainer initialRouteName="DrawerNavigator">
+    <NavigationContainer initialRouteName="Login">
       <StackApp.Navigator>
         {/* <StackApp.Screen
           name="SplashScreen"
           component={SplashScreen}
           options={navOptionHandler}
         /> */}
-        {/* <StackApp.Screen
+        <StackApp.Screen
           name="Login"
           component={Login}
           options={navOptionHandler}
-        /> */}
+        />
         <StackApp.Screen
           name="DrawerNavigator"
           component={DrawerNavigator}

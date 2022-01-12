@@ -29,6 +29,7 @@ export default SampratikCard = () => {
         horizontal
         style={styles.carousel}
         onMomentumScrollEnd={onScroll}
+        showsHorizontalScrollIndicator={false}
         ref={scrollRef}>
         {samparatik.map((_, index) => (
           <View
@@ -51,9 +52,7 @@ export default SampratikCard = () => {
                 />
               </View>
               <View style={styles.cardBody}>
-                 <View>
-                    
-                 </View>
+                <View></View>
               </View>
             </View>
           </View>
@@ -78,7 +77,6 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'red',
     overflow: 'hidden',
     borderRadius: 10,
   },
@@ -100,10 +98,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     height: '65%',
   },
-  // image: {
-  //   height: '80%',
-  //   width: '100%',
-  // },
+
   itemContent: {
     // flex: 1,
     // alignItems: 'center',

@@ -55,4 +55,12 @@ export const IMG = {
 
   IMAGE_SAMPRATIK_BG: require('../assets/images/homepage/sampratik/slide-bg.png'),
   IMAGE_SAMPRATIK_CARD_BG: require('../assets/images/homepage/sampratik/slide-box.png'),
+
+  // dekhashona
+
+  IMAGE_DEKHASHONA_BG: require('../assets/images/homepage/dekhashona/box.png'),
+  IMAGE_DEKHASHONA_IMAGE1: require('../assets/images/homepage/dekhashona/image.png'),
+  IMAGE_DEKHASHONA_IMAGE2: require('../assets/images/homepage/dekhashona/image-2.png'),
+  IMAGE_DEKHASHONA_IMAGE3: require('../assets/images/homepage/dekhashona/image-3.png'),
+  IMAGE_DEKHASHONA_IMAGE4: require('../assets/images/homepage/dekhashona/image-4.png'),
 };

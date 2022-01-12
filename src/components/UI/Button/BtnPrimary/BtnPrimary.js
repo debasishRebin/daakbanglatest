@@ -12,15 +12,18 @@ import {utils} from '../../../../globalStyles/utils';
 
 const {width, height} = Dimensions.get('screen');
 
-const BtnPrimary = ({btnTitle}) => {
+const BtnPrimary = ({btnTitle, onPress}) => {
   return (
-    <TouchableOpacity style={styles.customButtonContainer} activeOpacity={1}>
+    <TouchableOpacity
+      onPress={onPress}
+      style={[styles.customButtonContainer, utils.sh100]}
+      activeOpacity={0.8}>
       <Text style={[styles.btnTitleText, utils.fFamily]}>{btnTitle}</Text>
       <View style={styles.imageContainer}>
         <Image
-          style={styles.btnImage}
+          style={[styles.btnImage]}
           source={IMG.IMAGE_BUTTON}
-          resizeMode="contain"
+          resizeMode="stretch"
         />
       </View>
     </TouchableOpacity>
@@ -33,7 +36,6 @@ const styles = StyleSheet.create({
   customButtonContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100%',
   },
   imageContainer: {
     position: 'absolute',
@@ -42,10 +44,13 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     zIndex: -1,
+    borderRadius: 6,
+    overflow: 'hidden',
   },
   btnImage: {
     width: '100%',
     height: '100%',
+    overflow: 'hidden',
   },
   btnTitleText: {
     color: '#fff',

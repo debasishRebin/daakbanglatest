@@ -69,13 +69,18 @@ export const utils = StyleSheet.create({
     height: '100%',
   },
   wrapper: {
-    marginHorizontal: width / 13,
-    // borderWidth: 1,
+    marginHorizontal: width / 15,
+  },
+  wrapperPadding: {
+    paddingHorizontal: width / 15,
   },
   wrapperLeft: {
-    marginLeft: width / 13,
+    marginLeft: width / 15,
   },
-  titleColor: {
+  titleColorPrimary: {
     color: '#4f0e0e',
+  },
+  titleColorSecondary: {
+    color: '#fff',
   },
 });
